@@ -1,0 +1,128 @@
+body {
+    background-color: lightgrey;
+    color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+h3 {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    text-align: center;
+}
+
+.right-side {
+    position: relative;
+    margin-left: 200px;
+    top: 0px;
+    height: 100%;
+    width: 40%;
+  }
+
+  .right-side-skills {
+      /*
+    position: relative;
+    margin-left: 103%;
+    margin-top: 0%;
+    top: 0px;
+    height: 100%;
+    width: 40%;
+    
+   */
+    width: 30%;
+    float: right;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+  }
+
+  #skills {
+    background-color: rgb(241, 214, 187);
+    
+  }
+
+.left-side {
+    /*
+    position: relative; 
+    top: 0px;
+    margin-left:0px;
+    */
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin-top: 2%;
+    /* background-color: lightsteelblue; */
+    border-top: 20%;
+  }
+.container {
+    max-width: inherit;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: whitesmoke;
+}
+.sections-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.text{
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+
+}
+.experience{
+    
+    background-color: #abc4ab  ;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+
+
+#summary, #comment{
+    background-color: lightsteelblue  ;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.experienceItem {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header .photo {
+    float: left;
+    width: 200px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header .right-side {
+    float: left;
+    margin-left: 30px;
+}
+
+.left-side section, .right-side-skills section {
+    margin-top: 5%;
+}
